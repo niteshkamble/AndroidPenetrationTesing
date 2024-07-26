@@ -45,3 +45,18 @@ https://codeshare.frida.re/@dzonerzy/fridantiroot/
 
 ==============================================================
 youtube: https://youtu.be/BQwyy338Zag?si=C5zf0-zgt011fBDv
+
+
+=============================================================
+You can decompile apk to check source code
+(using jadx & apk tool)
+make sure you have apk in Dir
+
+$ apktool d <apk_file_name_with_extention>
+above cmd will create a folder with source code in it
+in same Dir
+$ cd <jadx_bin_folder>
+$ ./jadx-gui
+$ click on open to new created folder
+
+
